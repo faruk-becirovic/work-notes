@@ -7,4 +7,3 @@ git commit -m "Message"
 
 git push origin master
 
-read
