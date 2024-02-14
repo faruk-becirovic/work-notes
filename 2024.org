@@ -1,0 +1,67 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:nil e:t email:t f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Notes - 2024
+#+date: <2024-01-29 Mon>
+#+author: Faruk Bećirović
+#+email: faruk@verlabinstitute.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 28.3 (Org mode 9.5.5)
+#+cite_export:
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* January
+
+** <2024-01-29>
+
+*** Calendar sinchronisation
+
+Set up calendar sharing through Zoho mail.
+
+*** AI4HearthFailure
+
+Lemana provided model to Muhamed. Muhamed will integrate the model
+into his platform. Further steps TBD.
+
+*** HPC & AI Workshop
+
+Attended the workshop from <2024-01-29 11:00>--<2024-01-29 13:45>
+
+*** Hackathon meeting
+<2024-01-29 13:00>
+
+**** DONE Talk to Lejla before the meeting to dicuss the topic of track 3
+- State "DONE"       from "TODO"       [2024-01-29 Mon 15:41] \\
+  Discussed the concept of the application for the hackathon.
+
+The [[./Projects/CSEC-Hackathon/meetings.org][notes]] of the meeting.
+
+*** Workstation configuration
+
+- Worked on workstation configuration.
+- Removed unnecessary partition from the Disk 2
+- Figured how boot sequence works (I think)
+- Booted into Fedora live
+
+**** TODO Install Fedora on the Disk 2
+
+** <2024-0130>
+
+*** Weekly Meeting
+
+*** Workstation Setup
+
+*** Standards Compliance
+
+Talked to Samira about the Inventory lists. The Institute does not
+have anything of importance on it's. The DMBIUBIH's list will be
+provided by the accountant.
+
+
+
+
+

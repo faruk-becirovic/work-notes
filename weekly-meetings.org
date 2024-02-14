@@ -1,0 +1,31 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Weekly Meeting Notes
+#+subtitle: 2024
+#+date: <2024-01-30 Tue>
+#+author: Faruk Bećirović
+#+email: faruk@verlabinstitute.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 28.3 (Org mode 9.5.5)
+#+cite_export:
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* January
+
+** Week 5
+
+Modernisation of a University programme requires at least several
+courses changed or introduced. Cannot be changing one. If necessary
+change faculty in the consortium.
+
+It will be necessary to develop a web-page and a platform. That will be
+delegated to the Institute, along with the dissemination WP.
+
+Need to find and explore Horizon Work Programmes.
+
+Finish Erasmuses, then focus on IPAs.

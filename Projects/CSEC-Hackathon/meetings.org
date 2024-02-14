@@ -1,0 +1,46 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: CSEC - Hackathon
+#+subtitle: Meeting Notes
+#+date: <2024-01-29 Mon>
+#+author: Faruk Becirovic
+#+email: faruk@verlabinstitute.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 28.3 (Org mode 9.5.5)
+#+cite_export:
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+The organising committee will held meeting every week.
+
+* TODO Team Meeting
+<2023-01-15 13:00 +1w>
+
+** Meeting on <2023-01-29>
+
+The overall conclusion from the meeting is that there will be three
+tracks:
+1. Hack-the-box
+2. Capture the Flag
+3. Security by Design
+
+Track three will be devoted to DIH. The goal would be to strenghten an
+existing codebase and improve the security of an application for the
+medical sector in BiH.
+
+The competition will be held over three days. First day will host the
+first two tracks, wile the secod day will be devoted to the track
+three.
+
+*** TODO Find appropriate codebase to use for the competition
+
+It is necessary to find an application with the appropriate codebase
+that will be used in the competition. To this end.
+
+**** TODO Contact prof. Senka and discuss possible ETF apps
+
+**** TODO Write a concept for the hackathon system
