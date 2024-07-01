@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-07-01 Mon 15:45 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Projects 2024</title>
+<meta name="author" content="Faruk Bećirović" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Projects 2024</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgbcf93f0">1. eLab</a></li>
+<li><a href="#org46c15dd">2. DIH - Its$Health</a>
+<ul>
+<li><a href="#orga5ac2b6">2.1. eQMSe</a></li>
+</ul>
+</li>
+<li><a href="#org8d95b9c">3. AgroSmart</a>
+<ul>
+<li><a href="#org911b6c7">3.1. <span class="done DONE">DONE</span> Sastanak sa Biosensom</a></li>
+<li><a href="#orgb0c52dc">3.2. <span class="done DONE">DONE</span> Poslati specifikacije opreme Oskaru</a></li>
+<li><a href="#org5ccfb9d">3.3. <span class="done DONE">DONE</span> Validacija opreme</a></li>
+<li><a href="#orgd5af843">3.4. <span class="done DONE">DONE</span> Isporuka opreme</a>
+<ul>
+<li><a href="#org27fb274">3.4.1. <span class="done DONE">DONE</span> Izvršiti zamjenu GPU na računarima</a></li>
+<li><a href="#orgeb2f957">3.4.2. <span class="done DONE">DONE</span> Nabaviti SD karticu za kameru</a></li>
+</ul>
+</li>
+<li><a href="#orgb8d81a2">3.5. <span class="done DONE">DONE</span> Testirati opremu</a></li>
+<li><a href="#orgb01e11a">3.6. <span class="done DONE">DONE</span> Registracija drona</a>
+<ul>
+<li><a href="#orgfe58565">3.6.1. <span class="done DONE">DONE</span> Proučii pravilnik za upravljanje dronom.</a></li>
+<li><a href="#org2c56b0d">3.6.2. <span class="done DONE">DONE</span> Osigurati dron</a></li>
+<li><a href="#orga7e57f1">3.6.3. <span class="done DONE">DONE</span> Poslati dokumntaciju za registraciju</a></li>
+</ul>
+</li>
+<li><a href="#org077df1b">3.7. <span class="todo TODO">TODO</span> Data Acquisition</a>
+<ul>
+<li><a href="#org93e4fa8">3.7.1. <span class="done DONE">DONE</span> Prikuplanje podataka - Posavina</a></li>
+<li><a href="#org6733d66">3.7.2. <span class="done DONE">DONE</span> Prikupljanje podataka - Goražde</a></li>
+<li><a href="#org8664915">3.7.3. <span class="done DONE">DONE</span> Data Curation</a></li>
+</ul>
+</li>
+<li><a href="#orgcafa1b1">3.8. <span class="todo TODO">TODO</span> Data Annotation</a>
+<ul>
+<li><a href="#org1f31295">3.8.1. <span class="todo TODO">TODO</span> Send follow-up email to Biosens</a></li>
+</ul>
+</li>
+<li><a href="#orgb5582b4">3.9. <span class="todo TODO">TODO</span> Priprema priručnika</a>
+<ul>
+<li><a href="#orgbd89906">3.9.1. <span class="todo TODO">TODO</span> Napisati poglavlje o akviziciji podataka</a></li>
+</ul>
+</li>
+<li><a href="#orgabe1c65">3.10. <span class="todo TODO">TODO</span> Radioice</a>
+<ul>
+<li><a href="#org4d449b4">3.10.1. <span class="done DONE">DONE</span> Interni sastanak - Anotacija</a></li>
+</ul>
+</li>
+<li><a href="#org9244f2d">3.11. <span class="todo TODO">TODO</span> Publikacije</a></li>
+</ul>
+</li>
+<li><a href="#org3d7adb2">4. Digital Infrastructure</a>
+<ul>
+<li><a href="#orga617948">4.1. Data Centre</a></li>
+<li><a href="#org22ba4c0">4.2. Virtual Reality</a></li>
+</ul>
+</li>
+<li><a href="#org2a3f8db">5. NanoThink</a></li>
+<li><a href="#org634a545">6. Women4Sport</a></li>
+<li><a href="#orgba4f191">7. VerlabSport</a></li>
+<li><a href="#org54e40e8">8. DAAD Summerschool</a></li>
+<li><a href="#org3d57c10">9. SkillShare</a></li>
+<li><a href="#org110e9c1">10. DRG4Food</a></li>
+<li><a href="#org6d722f2">11. MONKS</a>
+<ul>
+<li><a href="#org9a82ddb">11.1. VerlabNexus</a></li>
+<li><a href="#orgef79246">11.2. MedAI</a></li>
+<li><a href="#org1caa518">11.3. DAAD</a></li>
+</ul>
+</li>
+<li><a href="#org042fa95">12. Publications</a>
+<ul>
+<li><a href="#orgbe5f8d2">12.1. AI u BiH - Conference</a></li>
+<li><a href="#orged7157c">12.2. Ai4MD - THC Special Issue</a></li>
+<li><a href="#org36d54e6">12.3. Ai &amp; Industry 4.0</a></li>
+<li><a href="#orgb5219a7">12.4. THC Reviews</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbcf93f0" class="outline-2">
+<h2 id="orgbcf93f0"><span class="section-number-2">1.</span> eLab</h2>
+</div>
+
+<div id="outline-container-org46c15dd" class="outline-2">
+<h2 id="org46c15dd"><span class="section-number-2">2.</span> DIH - Its$Health</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orga5ac2b6" class="outline-3">
+<h3 id="orga5ac2b6"><span class="section-number-3">2.1.</span> eQMSe</h3>
+</div>
+</div>
+
+<div id="outline-container-org8d95b9c" class="outline-2">
+<h2 id="org8d95b9c"><span class="section-number-2">3.</span> AgroSmart</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org911b6c7" class="outline-3">
+<h3 id="org911b6c7"><span class="section-number-3">3.1.</span> <span class="done DONE">DONE</span> Sastanak sa Biosensom</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-03-28 Thu 14:36] </span></span> <br />
+Održan sastanak sa predstavnicima Biosens instituta. Dogovoren tempo i način impementacije projekta.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb0c52dc" class="outline-3">
+<h3 id="orgb0c52dc"><span class="section-number-3">3.2.</span> <span class="done DONE">DONE</span> Poslati specifikacije opreme Oskaru</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li>CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-03-28 Thu 14:39] </span></span> <br />
+Poslana specifikacije ya drona i kameru.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5ccfb9d" class="outline-3">
+<h3 id="org5ccfb9d"><span class="section-number-3">3.3.</span> <span class="done DONE">DONE</span> Validacija opreme</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-05-31 Fri 14:40] </span></span> <br />
+UNDP Izvršio validaciju opreme.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd5af843" class="outline-3">
+<h3 id="orgd5af843"><span class="section-number-3">3.4.</span> <span class="done DONE">DONE</span> Isporuka opreme</h3>
+<div class="outline-text-3" id="text-3-4">
+<ul class="org-ul">
+<li>CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-03-26 Tue 14:58] </span></span> <br />
+Oprema isporučena.</li>
+</ul>
+</div>
+
+<div id="outline-container-org27fb274" class="outline-4">
+<h4 id="org27fb274"><span class="section-number-4">3.4.1.</span> <span class="done DONE">DONE</span> Izvršiti zamjenu GPU na računarima</h4>
+<div class="outline-text-4" id="text-3-4-1">
+</div>
+</div>
+
+<div id="outline-container-orgeb2f957" class="outline-4">
+<h4 id="orgeb2f957"><span class="section-number-4">3.4.2.</span> <span class="done DONE">DONE</span> Nabaviti SD karticu za kameru</h4>
+<div class="outline-text-4" id="text-3-4-2">
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb8d81a2" class="outline-3">
+<h3 id="orgb8d81a2"><span class="section-number-3">3.5.</span> <span class="done DONE">DONE</span> Testirati opremu</h3>
+<div class="outline-text-3" id="text-3-5">
+</div>
+</div>
+
+<div id="outline-container-orgb01e11a" class="outline-3">
+<h3 id="orgb01e11a"><span class="section-number-3">3.6.</span> <span class="done DONE">DONE</span> Registracija drona</h3>
+<div class="outline-text-3" id="text-3-6">
+<ul class="org-ul">
+<li>CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-04-29 Mon 15:07] </span></span> <br />
+Dostavljena dokumentacija i registarke oznake.
+Registracija važit do <span class="timestamp-wrapper"><span class="timestamp">&lt;2027-04-29 Thu&gt;</span></span>.</li>
+</ul>
+</div>
+
+<div id="outline-container-orgfe58565" class="outline-4">
+<h4 id="orgfe58565"><span class="section-number-4">3.6.1.</span> <span class="done DONE">DONE</span> Proučii pravilnik za upravljanje dronom.</h4>
+<div class="outline-text-4" id="text-3-6-1">
+</div>
+</div>
+
+<div id="outline-container-org2c56b0d" class="outline-4">
+<h4 id="org2c56b0d"><span class="section-number-4">3.6.2.</span> <span class="done DONE">DONE</span> Osigurati dron</h4>
+<div class="outline-text-4" id="text-3-6-2">
+</div>
+</div>
+
+<div id="outline-container-orga7e57f1" class="outline-4">
+<h4 id="orga7e57f1"><span class="section-number-4">3.6.3.</span> <span class="done DONE">DONE</span> Poslati dokumntaciju za registraciju</h4>
+<div class="outline-text-4" id="text-3-6-3">
+</div>
+</div>
+</div>
+
+<div id="outline-container-org077df1b" class="outline-3">
+<h3 id="org077df1b"><span class="section-number-3">3.7.</span> <span class="todo TODO">TODO</span> Data Acquisition</h3>
+<div class="outline-text-3" id="text-3-7">
+</div>
+<div id="outline-container-org93e4fa8" class="outline-4">
+<h4 id="org93e4fa8"><span class="section-number-4">3.7.1.</span> <span class="done DONE">DONE</span> Prikuplanje podataka - Posavina</h4>
+<div class="outline-text-4" id="text-3-7-1">
+<ul class="org-ul">
+<li>CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-07-01 Mon 15:27] </span></span> <br />
+Podaci prikupljeni na parcelama kooperanata u Drventi i Odžaku u
+periodu <span class="timestamp-wrapper"><span class="timestamp">&lt;2024-06-05 Wed&gt; </span></span> - <span class="timestamp-wrapper"><span class="timestamp">&lt;2024-06-07 Fri&gt;</span></span>.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6733d66" class="outline-4">
+<h4 id="org6733d66"><span class="section-number-4">3.7.2.</span> <span class="done DONE">DONE</span> Prikupljanje podataka - Goražde</h4>
+<div class="outline-text-4" id="text-3-7-2">
+<ul class="org-ul">
+<li>CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-06-10 Mon 15:28] </span></span> <br />
+Data was acquired from the fields in Goražde on <span class="timestamp-wrapper"><span class="timestamp">&lt;2024-06-10 Mon&gt;</span></span>.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8664915" class="outline-4">
+<h4 id="org8664915"><span class="section-number-4">3.7.3.</span> <span class="done DONE">DONE</span> Data Curation</h4>
+<div class="outline-text-4" id="text-3-7-3">
+<ul class="org-ul">
+<li>CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-06-24 Mon 15:29] </span></span> <br />
+Data was organised according to the date of acquisition, field, and
+sample number. The data is available at <a href="https://huggingface.co/datasets/faruk-becirovic/AgroSmart">link</a>. The data was shared with Biosens.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcafa1b1" class="outline-3">
+<h3 id="orgcafa1b1"><span class="section-number-3">3.8.</span> <span class="todo TODO">TODO</span> Data Annotation</h3>
+<div class="outline-text-3" id="text-3-8">
+</div>
+<div id="outline-container-org1f31295" class="outline-4">
+<h4 id="org1f31295"><span class="section-number-4">3.8.1.</span> <span class="todo TODO">TODO</span> Send follow-up email to Biosens</h4>
+<div class="outline-text-4" id="text-3-8-1">
+<p>
+Send email to arrange for Annotation activities. Organise meeting to
+arrange for Data Annotation activities and Publication topics. 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb5582b4" class="outline-3">
+<h3 id="orgb5582b4"><span class="section-number-3">3.9.</span> <span class="todo TODO">TODO</span> Priprema priručnika</h3>
+<div class="outline-text-3" id="text-3-9">
+</div>
+<div id="outline-container-orgbd89906" class="outline-4">
+<h4 id="orgbd89906"><span class="section-number-4">3.9.1.</span> <span class="todo TODO">TODO</span> Napisati poglavlje o akviziciji podataka</h4>
+<div class="outline-text-4" id="text-3-9-1">
+<ul class="org-ul">
+<li>DEADLINE: <span class="timestamp-wrapper"><span class="timestamp">[2024-07-12 Fri]</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgabe1c65" class="outline-3">
+<h3 id="orgabe1c65"><span class="section-number-3">3.10.</span> <span class="todo TODO">TODO</span> Radioice</h3>
+<div class="outline-text-3" id="text-3-10">
+</div>
+<div id="outline-container-org4d449b4" class="outline-4">
+<h4 id="org4d449b4"><span class="section-number-4">3.10.1.</span> <span class="done DONE">DONE</span> Interni sastanak - Anotacija</h4>
+<div class="outline-text-4" id="text-3-10-1">
+<ul class="org-ul">
+<li><p>
+CLOSING NOTE <span class="timestamp-wrapper"><span class="timestamp">[2024-07-01 Mon 15:37] </span></span> <br />
+Dogovorene aktivnosti za anotaciju.
+</p>
+<ul class="org-ul">
+<li>Poslati mail Biosensu</li>
+<li>Napisati poglavlje o Akviziciji</li>
+<li>Dogovoren iygled priručnika</li>
+<li>Prikuplati radove za publikacije</li>
+</ul>
+
+<p>
+Dogovoreno je da radionice pudu organiyovane u Septembru, svaka
+radionica će trajati jedan dan i imati tri modulaČ
+</p>
+<ol class="org-ol">
+<li>AI općenito</li>
+<li>AI u poljoprivredi</li>
+<li>AgroSmart - prvi AI za predikciju u BiH.</li>
+</ol></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9244f2d" class="outline-3">
+<h3 id="org9244f2d"><span class="section-number-3">3.11.</span> <span class="todo TODO">TODO</span> Publikacije</h3>
+</div>
+</div>
+
+<div id="outline-container-org3d7adb2" class="outline-2">
+<h2 id="org3d7adb2"><span class="section-number-2">4.</span> Digital Infrastructure</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orga617948" class="outline-3">
+<h3 id="orga617948"><span class="section-number-3">4.1.</span> Data Centre</h3>
+</div>
+
+<div id="outline-container-org22ba4c0" class="outline-3">
+<h3 id="org22ba4c0"><span class="section-number-3">4.2.</span> Virtual Reality</h3>
+</div>
+</div>
+
+<div id="outline-container-org2a3f8db" class="outline-2">
+<h2 id="org2a3f8db"><span class="section-number-2">5.</span> NanoThink</h2>
+</div>
+
+<div id="outline-container-org634a545" class="outline-2">
+<h2 id="org634a545"><span class="section-number-2">6.</span> Women4Sport</h2>
+</div>
+
+<div id="outline-container-orgba4f191" class="outline-2">
+<h2 id="orgba4f191"><span class="section-number-2">7.</span> VerlabSport</h2>
+</div>
+
+<div id="outline-container-org54e40e8" class="outline-2">
+<h2 id="org54e40e8"><span class="section-number-2">8.</span> DAAD Summerschool</h2>
+</div>
+
+<div id="outline-container-org3d57c10" class="outline-2">
+<h2 id="org3d57c10"><span class="section-number-2">9.</span> SkillShare</h2>
+</div>
+
+<div id="outline-container-org110e9c1" class="outline-2">
+<h2 id="org110e9c1"><span class="section-number-2">10.</span> DRG4Food</h2>
+</div>
+
+<div id="outline-container-org6d722f2" class="outline-2">
+<h2 id="org6d722f2"><span class="section-number-2">11.</span> MONKS</h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-org9a82ddb" class="outline-3">
+<h3 id="org9a82ddb"><span class="section-number-3">11.1.</span> VerlabNexus</h3>
+</div>
+
+<div id="outline-container-orgef79246" class="outline-3">
+<h3 id="orgef79246"><span class="section-number-3">11.2.</span> MedAI</h3>
+</div>
+
+<div id="outline-container-org1caa518" class="outline-3">
+<h3 id="org1caa518"><span class="section-number-3">11.3.</span> DAAD</h3>
+</div>
+</div>
+
+<div id="outline-container-org042fa95" class="outline-2">
+<h2 id="org042fa95"><span class="section-number-2">12.</span> Publications</h2>
+<div class="outline-text-2" id="text-12">
+</div>
+<div id="outline-container-orgbe5f8d2" class="outline-3">
+<h3 id="orgbe5f8d2"><span class="section-number-3">12.1.</span> AI u BiH - Conference</h3>
+</div>
+
+<div id="outline-container-orged7157c" class="outline-3">
+<h3 id="orged7157c"><span class="section-number-3">12.2.</span> Ai4MD - THC Special Issue</h3>
+</div>
+
+<div id="outline-container-org36d54e6" class="outline-3">
+<h3 id="org36d54e6"><span class="section-number-3">12.3.</span> Ai &amp; Industry 4.0</h3>
+</div>
+
+<div id="outline-container-orgb5219a7" class="outline-3">
+<h3 id="orgb5219a7"><span class="section-number-3">12.4.</span> THC Reviews</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Faruk Bećirović</p>
+<p class="date">Created: 2024-07-01 Mon 15:45</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

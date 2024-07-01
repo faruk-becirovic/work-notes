@@ -1,0 +1,15 @@
+DMBIUBIH website
+
+*** DONE In focus -> in retrospective
+*** DONE IFHE remove
+*** DONE Dodati radionicu in news
+*** DONE Samo facebook and Linked in ostaje u footeru
+*** TODO Remove DIH from footer
+*** TODO Contuct us: instead what is now remove DMBIUBIH 
+*** DONE Header: About us change
+*** DONE New oraganiational structure
+*** DONE Urediti events and projects to be all the same
+*** DONE Dodati DAAD u news
+*** DONE Membership zamijentiti logo sa slikom ljudi
+*** DONE Podesiti jezike
+

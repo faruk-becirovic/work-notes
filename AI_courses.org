@@ -1,0 +1,10 @@
+- What is generative AI * [[https://lnkd.in/duy28vK3?trk=public_post-text]]
+- Ethics in the Age of Generative AI * [[https://lnkd.in/dD63DHUs?trk=public_post-text]]
+- Introduction to machine learning with Python and Azure Notebooks
+- AI For Everyone
+- Machine Learning for All [[https://www.coursera.org/learn/uol-machine-learning-for-all]]
+- IBM Applied AI Professional Certificate  [[https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai]]
+- AI, Business & the Future of Work  [[https://www.coursera.org/learn/ai-business-future-of-work]]
+- Introduction to prompt engineering * [[https://lnkd.in/eNC9CAbP]]
+- Intro to Large Language Models [[https://lnkd.in/ghk5eygZ]]
+- Intro to Responsible AI [[https://lnkd.in/ghfQiMmP]]

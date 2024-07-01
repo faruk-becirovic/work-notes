@@ -1,0 +1,22 @@
+*** DONE Add missing projects [[./projects.org]]
+1. DAAD Summerschool
+2. ERASMUS Nanothink
+3. ERASMUS Women4Sport
+4. COST CA21139
+5. EU4Agri AgroSmart
+6. MSS Bugojno
+7. MONKS Paim
+8. MONKS Techlab
+*** DONE Fix Card size in News
+*** DONE Stop video autoplay on Homepage
+*** DONE Add Green Transformation to Services
+*** TODO Update publications
+*** DONE Add dropdown menu to Publications
+Add dropdown to publication in main menu with:
+1. Scientific publications
+   This menu points to existing publications page
+2. Newsletter
+   This menu point to new page for newsletter
+*** DONE Add new article category for newsletter
+*** DONE Copy newsletter articles to new category
+*** DONE Add missing news items

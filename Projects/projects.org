@@ -1,0 +1,173 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Projects 2024
+#+author: Faruk Bećirović
+#+email: faruk@verlabinstitute.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 29.4 (Org mode 9.6.15)
+#+cite_export:
+
+* eLab
+
+* DIH - Its$Health
+
+** eQMSe
+
+* AgroSmart
+
+** DONE Sastanak sa Biosensom
+CLOSED: [2024-03-28]
+
+- CLOSING NOTE [2024-03-28 Mon 14:36] \\
+  Održan sastanak sa predstavnicima Biosens instituta. Dogovoren tempo i način impementacije projekta.
+
+** DONE Poslati specifikacije opreme Oskaru
+CLOSED: [2024-03-28 14:39]
+  
+- CLOSING NOTE [2024-03-28 14:39] \\
+  Poslana specifikacije ya drona i kameru.
+
+** DONE Validacija opreme
+CLOSED: [2024-05-31 14:40]
+
+- CLOSING NOTE [2024-05-31 14:40] \\
+  UNDP Izvršio validaciju opreme.
+
+** DONE Isporuka opreme
+CLOSED: [2024-03-26 14:58]
+
+- CLOSING NOTE [2024-03-26 14:58] \\
+  Oprema isporučena.
+
+*** DONE Izvršiti zamjenu GPU na računarima
+CLOSED: [2024-03-27 14:59]
+
+*** DONE Nabaviti SD karticu za kameru
+CLOSED: [2024-03-29 15:00]
+
+** DONE Testirati opremu
+CLOSED: [2024-03-29 15:09]
+
+** DONE Registracija drona
+CLOSED: [2024-04-29 15:07]
+
+- CLOSING NOTE [2024-04-29 15:07] \\
+  Dostavljena dokumentacija i registarke oznake.
+  Registracija važit do <2027-04-29>.
+
+*** DONE Proučii pravilnik za upravljanje dronom.
+CLOSED: [2024-04-10 15:06]
+
+*** DONE Osigurati dron
+CLOSED: [2024-04-15 15:04]
+
+*** DONE Poslati dokumntaciju za registraciju
+CLOSED: [2024-04-16 15:05]
+
+** TODO Data Acquisition
+
+*** DONE Prikuplanje podataka - Posavina
+CLOSED: [2024-07-01 Mon 15:27]
+
+- CLOSING NOTE [2024-07-01 Mon 15:27] \\
+  Podaci prikupljeni na parcelama kooperanata u Drventi i Odžaku u
+  periodu <2024-06-05> - <2024-06-07>.
+
+*** DONE Prikupljanje podataka - Goražde
+CLOSED: [2024-06-10 15:28]
+
+- CLOSING NOTE [2024-06-10 15:28] \\
+  Data was acquired from the fields in Goražde on <2024-06-10>.
+
+*** DONE Data Curation
+CLOSED: [2024-06-24 15:29]
+
+- CLOSING NOTE [2024-06-24 15:29] \\
+  Data was organised according to the date of acquisition, field, and
+  sample number. The data is available at [[https://huggingface.co/datasets/faruk-becirovic/AgroSmart][link]]. The data was shared with Biosens.
+
+** TODO Data Annotation
+
+*** TODO Send follow-up email to Biosens
+
+Send email to arrange for Annotation activities. Organise meeting to
+arrange for Data Annotation activities and Publication topics. 
+
+** TODO Priprema priručnika
+
+*** TODO Napisati poglavlje o akviziciji podataka
+
+- DEADLINE: [2024-07-12]
+
+** TODO Radioice
+
+*** DONE Interni sastanak - Anotacija
+CLOSED: [2024-07-01 Mon 15:37]
+
+- CLOSING NOTE [2024-07-01 Mon 15:37] \\
+  Dogovorene aktivnosti za anotaciju.
+  - Poslati mail Biosensu
+  - Napisati poglavlje o Akviziciji
+  - Dogovoren iygled priručnika
+  - Prikuplati radove za publikacije
+
+  Dogovoreno je da radionice pudu organiyovane u Septembru, svaka
+  radionica će trajati jedan dan i imati tri modulaČ
+  1. AI općenito
+  2. AI u poljoprivredi
+  3. AgroSmart - prvi AI za predikciju u BiH.
+
+** TODO Publikacije
+
+* Digital Infrastructure
+
+** Data Centre
+
+** Virtual Reality
+
+* NanoThink
+
+** Web
+
+Activity was assigned on <2024-05-09>
+
+*** TODO Develop first version
+
+*** TODO Demonstration to consortium
+
+*** TODO Notification to partners
+
+*** TODO Update the website
+
+* Women4Sport
+
+* VerlabSport
+
+* DAAD Summerschool
+
+* SkillShare
+
+* DRG4Food
+
+* MONKS
+
+** VerlabNexus
+
+** MedAI
+
+** DAAD
+
+* Publications
+
+** AI u BiH - Conference
+
+** Ai4MD - THC Special Issue
+
+** Ai & Industry 4.0
+
+** THC Reviews

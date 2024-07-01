@@ -1,0 +1,36 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: DAAD-Summerschool
+#+date: <2024-02-14 Wed>
+#+author: Faruk Bećirović
+#+email: faruk@verlabinstitute.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 29.2 (Org mode 9.6.15)
+#+cite_export:
+
+* Kickoff Meeting
+<2024-02-12>
+
+The meeting was held online.
+
+Attended by:
+- Ralf Seepold
+- J Velez
+- Tamer Bego
+- Madzida
+- me
+
+Meeting points:
+1. It was decided to include Tamer and Lejla as lecturers for the summerschool,
+2. Student contracts were discussed, Tamer proposed adding two
+   additional students to the gorup. (TBD INT)
+3. Registration deadlines were updated, early registration will close
+   on <2024-04-14>, final registration deadline is <2024-06-02>.
+4. Catering and the logistics of the event: The event may be organised
+   at the Farmacija or at some other UNSA venue. Eventualy a hotel or
+   some other conference centre may be chosen (TBD). 

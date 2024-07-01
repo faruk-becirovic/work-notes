@@ -1,3 +1,4 @@
+
 #+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+options: author:t broken-links:nil c:nil creator:nil
 #+options: d:(not "LOGBOOK") date:nil e:t email:t f:t inline:t num:t
@@ -47,9 +48,9 @@ The [[./Projects/CSEC-Hackathon/meetings.org][notes]] of the meeting.
 - Figured how boot sequence works (I think)
 - Booted into Fedora live
 
-**** TODO Install Fedora on the Disk 2
+**** DONE Install Fedora on the Disk 2
 
-** <2024-0130>
+** <2024-01-30>
 
 *** Weekly Meeting
 
@@ -61,7 +62,36 @@ Talked to Samira about the Inventory lists. The Institute does not
 have anything of importance on it's. The DMBIUBIH's list will be
 provided by the accountant.
 
+* February
+
+** <2024-02-12>
+
+*** DAAD Summerschool
+
+Held meeting with Tamer and the Germans. Ralf addressed all raised
+issues.
 
 
 
+** <2024-02-19>
 
+*** Breast Cancer
+
+**** TODO Optimise model: Change architecture
+
+**** TODO Lookup multiplexer
+
+*** eLab
+
+**** TODO Fix brokent angular
+
+*** CMMS KBZe
+
+**** TODO Write Initial Software Specification
+
+*** Objava na Karike blog
+
+Objavu sa Karika dodati na stranicu instituta.
+
+
+** <2024-02-14>
